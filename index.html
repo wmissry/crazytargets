@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crazy Targets: the party game for one iPad</title>
+<meta name="description" content="Crazy Targets is a party game for 2 to 4 players on one iPad. Flick your ball at the target across eight different stages: mini golf, hockey, billiards, football, curling and more.">
+<meta property="og:title" content="Crazy Targets">
+<meta property="og:description" content="One iPad, four corners, eight wild games. A party game for 2 to 4 players.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="table">
+  <div class="zone tl" style="--c: var(--purple)"><img src="marble-purple.png" alt=""></div>
+  <div class="zone tr" style="--c: var(--yellow)"><img src="marble-yellow.png" alt=""></div>
+  <div class="zone bl" style="--c: var(--red)"><img src="marble-red.png" alt=""></div>
+  <div class="zone br" style="--c: var(--blue)"><img src="marble-blue.png" alt=""></div>
+
+  <header class="wrap topbar">
+    <a class="brand" href="./"><img src="icon.png" alt=""><span>Crazy Targets</span></a>
+    <nav class="topnav">
+      <a class="hide-s" href="#stages" data-ar="المراحل">Stages</a>
+      <a href="support.html" data-ar="الدعم">Support</a>
+      <a class="hide-s" href="privacy.html" data-ar="الخصوصية">Privacy</a>
+      <button class="lang" type="button" id="lang" aria-label="Switch language">العربية</button>
+    </nav>
+  </header>
+
+  <main class="wrap hero">
+    <h1>Crazy Targets</h1>
+    <p class="lede" data-ar="آيباد واحد، أربع زوايا، ثماني ألعاب مجنونة.">One iPad, four corners, eight wild games.</p>
+    <p class="intro" data-ar="اجلسوا حول الآيباد، ادفع كرتك نحو الهدف، واجمع نقاطاً أكثر من الجميع قبل أن ينتهي الوقت. لعبة جماعية من لاعبين إلى أربعة.">Sit around the iPad, flick your ball at the target, and outscore everyone before the clock runs out. A party game for two to four players.</p>
+
+    <div class="ipad">
+      <video id="clip" autoplay muted loop playsinline controls poster="poster.jpg" aria-label="Gameplay video">
+        <source src="gameplay.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <p><span class="store"><strong data-ar="قريباً على App Store">Coming soon to the App Store</strong><span data-ar="لأجهزة iPad">For iPad</span></span></p>
+  </main>
+</div>
+
+<section class="stages" id="stages">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 data-ar="ثماني مراحل، وكل مرحلة لعبة مختلفة">Eight stages, each one a different game</h2>
+      <p data-ar="لكل مرحلة كرتها وأداتها وموسيقاها وحيلتها الخاصة. المهارة المطلوبة واحدة: القوة المناسبة في اللحظة المناسبة.">Every stage has its own ball, its own tool, its own music and its own trick. The skill is always the same: the right power at the right moment.</p>
+    </div>
+
+    <ul class="stage-grid">
+      <li class="stage">
+        <img class="ball" src="ball-golf.png" alt="">
+        <div class="shot"><span class="free" data-ar="مجانية">Free</span><img src="stage-classic.jpg" alt="Spinning Hole stage" loading="lazy"></div>
+        <h3 data-ar="الحفرة الدوّارة">Spinning Hole</h3>
+        <p data-ar="جولف مصغّر، والحفرة تركب قرصاً يدور وحوله سير يسحب الكرات بالعكس.">Mini golf with a hole riding a turntable, while an outer belt drags balls the other way.</p>
+        <p class="kit" data-ar="كرة جولف ومضرب">Golf ball and club</p>
+      </li>
+      <li class="stage">
+        <img class="ball" src="ball-puck.png" alt="">
+        <div class="shot"><span class="free" data-ar="مجانية">Free</span><img src="stage-penguin.jpg" alt="Penguin Basket stage" loading="lazy"></div>
+        <h3 data-ar="البطريق والسلة">Penguin Basket</h3>
+        <p data-ar="أدخل القرص في السلة التي يسحبها بطريق يتجول على الجليد.">Slide your puck into the basket a wandering penguin pulls across the ice.</p>
+        <p class="kit" data-ar="قرص هوكي وعصا">Hockey puck and stick</p>
+      </li>
+      <li class="stage">
+        <img class="ball" src="ball-crystal.png" alt="">
+        <div class="shot"><img src="stage-wizard.jpg" alt="The Wizard stage" loading="lazy"></div>
+        <h3 data-ar="الساحر">The Wizard</h3>
+        <p data-ar="بوابة سحرية تختفي وتظهر في مكان آخر، والساحر يضحك إن وصلت متأخراً.">A magic portal that vanishes and reappears somewhere else. Arrive late and the wizard laughs.</p>
+        <p class="kit" data-ar="بلّورة وعصا سحرية">Crystal ball and wand</p>
+      </li>
+      <li class="stage">
+        <img class="ball" src="ball-billiard.png" alt="">
+        <div class="shot"><img src="stage-rings.jpg" alt="Rings stage" loading="lazy"></div>
+        <h3 data-ar="الحلقات">Rings</h3>
+        <p data-ar="حفر بنقاط من 2 إلى 10، ولا تدخل الكرة إلا بضربة هادئة ودقيقة.">Holes worth 2 to 10 points. Only a gentle, exact shot drops in.</p>
+        <p class="kit" data-ar="كرة بلياردو وعصا">Billiard ball and cue</p>
+      </li>
+      <li class="stage">
+        <img class="ball" src="ball-orb.png" alt="">
+        <div class="shot"><img src="stage-galaxy.jpg" alt="Galaxy stage" loading="lazy"></div>
+        <h3 data-ar="المجرّة">Galaxy</h3>
+        <p data-ar="سدّد عبر فتحات حلقتين تدوران حول ثقب أسود.">Shoot through the gaps of two rings orbiting a black hole.</p>
+        <p class="kit" data-ar="كرة متوهجة ومدفع">Glowing orb and cannon</p>
+      </li>
+      <li class="stage">
+        <img class="ball" src="ball-glass.png" alt="">
+        <div class="shot"><img src="stage-mole.jpg" alt="Genius Mole stage" loading="lazy"></div>
+        <h3 data-ar="الخلد العبقري">Genius Mole</h3>
+        <p data-ar="الخلد يشير بالليزر إلى الفتحة التي ستُفتح... أو يخدعك.">The mole points his laser at the hatch that will open... or tricks you.</p>
+        <p class="kit" data-ar="بلي زجاجي ومطرقة">Glass marble and mallet</p>
+      </li>
+      <li class="stage">
+        <img class="ball" src="ball-football.png" alt="">
+        <div class="shot"><img src="stage-football.jpg" alt="Football stage" loading="lazy"></div>
+        <h3 data-ar="كرة القدم">Football</h3>
+        <p data-ar="سجّل في مرمى خصومك، ومعك زميل كمبيوتر يلعب لصالحك.">Score in your rivals' goals, with a computer teammate playing on your side.</p>
+        <p class="kit" data-ar="كرة قدم وحذاء">Football and boot</p>
+      </li>
+      <li class="stage">
+        <img class="ball" src="ball-stone.png" alt="">
+        <div class="shot"><img src="stage-zones.jpg" alt="Score Zones stage" loading="lazy"></div>
+        <h3 data-ar="دوائر النقاط">Score Zones</h3>
+        <p data-ar="على طريقة الكيرلنغ: أوقف حجرك في أعلى دائرة، ولا تسقطه في الحفرة.">Curling style: stop your stone in the highest ring, and keep it out of the hole.</p>
+        <p class="kit" data-ar="حجر كيرلنغ يُدفع باليد">Curling stone, pushed by hand</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="round">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 data-ar="كيف تُلعب الجولة">How a round goes</h2>
+    </div>
+    <ul class="plaques">
+      <li><img src="marble-red.png" alt=""><span data-ar="كل لاعب له زاوية ولون. من لاعبين إلى أربعة على آيباد واحد.">Everyone gets a corner and a colour. Two, three or four players on one iPad.</span></li>
+      <li><img src="marble-blue.png" alt=""><span data-ar="المس كرتك داخل زاويتك وادفعها. سرعتها من سرعة إصبعك.">Touch your ball inside your corner and flick. It travels as fast as your finger.</span></li>
+      <li><img src="marble-yellow.png" alt=""><span data-ar="الكرات لا تنتهي، والكرة التي تدخل تُحسب لصاحب لونها حتى لو دفعها غيره.">Balls never run out, and a ball that goes in scores for its colour, even if someone else knocked it in.</span></li>
+      <li><img src="marble-purple.png" alt=""><span data-ar="الجولة دقيقة أو دقيقتان أو ثلاث، والفائز صاحب أعلى نقاط.">Rounds last one, two or three minutes. Highest score wins.</span></li>
+      <li><img src="marble-blue.png" alt=""><span data-ar="وضع البطولة: ثلاث مراحل متتالية وبطل واحد.">Tournament mode strings three stages together and crowns one champion.</span></li>
+      <li><img src="marble-red.png" alt=""><span data-ar="بلا حسابات وبلا إنترنت أثناء اللعب. بالعربية والإنجليزية.">No accounts and no internet needed to play. In English and Arabic.</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="price">
+  <div class="wrap">
+    <div class="section-head">
+      <h2 data-ar="ابدأ مجاناً">Free to start</h2>
+    </div>
+    <div class="offer">
+      <div class="free-side">
+        <h3 data-ar="مجاناً">Free</h3>
+        <ul>
+          <li data-ar="الحفرة الدوّارة">Spinning Hole</li>
+          <li data-ar="البطريق والسلة">Penguin Basket</li>
+        </ul>
+      </div>
+      <div class="paid-side">
+        <h3 data-ar="شراء واحد يفتح الباقي">One purchase unlocks the rest</h3>
+        <ul>
+          <li data-ar="ست مراحل إضافية">Six more stages</li>
+          <li data-ar="وضع البطولة">Tournament mode</li>
+          <li data-ar="مشاركة مع كل أفراد العائلة عبر المشاركة العائلية">Shared with your whole family through Family Sharing</li>
+          <li data-ar="تدفع مرة واحدة وتبقى لك">Pay once, keep it</li>
+        </ul>
+      </div>
+    </div>
+    <p class="promise" data-ar="بلا إعلانات. بلا اشتراكات. بلا جمع بيانات.">No ads. No subscriptions. No data collected.</p>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <span>&copy; 2026 Wayle Missry</span>
+    <nav>
+      <a href="support.html" data-ar="الدعم">Support</a>
+      <a href="privacy.html" data-ar="سياسة الخصوصية">Privacy policy</a>
+      <a href="mailto:crazytargets.app@gmail.com">crazytargets.app@gmail.com</a>
+    </nav>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var nodes = document.querySelectorAll('[data-ar]');
+  nodes.forEach(function (n) { n.setAttribute('data-en', n.textContent); });
+  var btn = document.getElementById('lang');
+  function apply(lang) {
+    var ar = lang === 'ar';
+    document.documentElement.lang = ar ? 'ar' : 'en';
+    document.documentElement.dir = ar ? 'rtl' : 'ltr';
+    nodes.forEach(function (n) { n.textContent = n.getAttribute(ar ? 'data-ar' : 'data-en'); });
+    btn.textContent = ar ? 'English' : 'العربية';
+    try { localStorage.setItem('ct-lang', lang); } catch (e) {}
+  }
+  var saved = 'en';
+  try { saved = localStorage.getItem('ct-lang') || 'en'; } catch (e) {}
+  if (saved === 'ar') apply('ar');
+  btn.addEventListener('click', function () {
+    apply(document.documentElement.lang === 'ar' ? 'en' : 'ar');
+  });
+  // People who ask for less motion get a still picture until they press play
+  if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    var v = document.getElementById('clip');
+    v.removeAttribute('autoplay');
+    v.pause();
+  }
+})();
+</script>
+</body>
+</html>
